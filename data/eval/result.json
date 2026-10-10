@@ -1,0 +1,88 @@
+{
+  "chunks": 937,
+  "retrieval_hit_at_5": "7/7",
+  "retrieval": [
+    {
+      "id": "aliyun-singapore-entity",
+      "hit": true,
+      "top_titles": [
+        "Alibaba Cloud International Website Privacy Policy",
+        "Alibaba Cloud International Website Privacy Policy",
+        "Alibaba Cloud International Website Privacy Policy"
+      ]
+    },
+    {
+      "id": "aliyun-third-parties",
+      "hit": true,
+      "top_titles": [
+        "Alibaba Cloud International Website Privacy Policy",
+        "Alibaba Cloud International Website Privacy Policy",
+        "Alibaba Cloud International Website Privacy Policy"
+      ]
+    },
+    {
+      "id": "pdpa-transfer",
+      "hit": true,
+      "top_titles": [
+        "Personal Data Protection Act 2012",
+        "Personal Data Protection Act 2012",
+        "Alibaba Cloud International Website Privacy Policy"
+      ]
+    },
+    {
+      "id": "gdpr-article-44",
+      "hit": true,
+      "top_titles": [
+        "GDPR Article 44",
+        "GDPR Article 45",
+        "GDPR Article 48"
+      ]
+    },
+    {
+      "id": "shein-transfer",
+      "hit": true,
+      "top_titles": [
+        "SHEIN Group Privacy Policy",
+        "Alibaba Cloud International Website Privacy Policy",
+        "SHEIN Group Privacy Policy"
+      ]
+    },
+    {
+      "id": "pipl-article-38",
+      "hit": true,
+      "top_titles": [
+        "中华人民共和国个人信息保护法",
+        "中华人民共和国个人信息保护法",
+        "中华人民共和国个人信息保护法"
+      ]
+    },
+    {
+      "id": "slack-hosting",
+      "hit": true,
+      "top_titles": [
+        "Salesforce Infrastructure and Sub-processors",
+        "Salesforce Infrastructure and Sub-processors",
+        "Salesforce Infrastructure and Sub-processors"
+      ]
+    }
+  ],
+  "verifier": [
+    {
+      "text": "may be located in Singapore or outside of Singapore",
+      "status": "supported",
+      "evidence_ids": [
+        "e1"
+      ]
+    },
+    {
+      "text": "TikTok stores every byte in Singapore under section 99.",
+      "status": "assumption",
+      "evidence_ids": []
+    },
+    {
+      "text": "personal data is transferred",
+      "status": "assumption",
+      "evidence_ids": []
+    }
+  ]
+}

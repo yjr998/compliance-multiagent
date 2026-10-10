@@ -1,0 +1,16 @@
+{
+  "id": "slack-aws-hosting",
+  "company": "Slack",
+  "source_url": "https://slack.com/slack-subprocessors",
+  "source_file": "data/corpus/slack-subprocessors.pdf",
+  "published": "2025-03-28",
+  "fetched": "2026-10-05",
+  "publisher": "Salesforce Infrastructure and Sub-processors",
+  "facts_from_source": [
+    "Applicable to the services branded as (a) Slack, including Slack AI and (b) GovSlack.",
+    "Slack services, including Slack AI (excluding GovSlack): Hosting provider for all functionality. Customers may select a data region, but as described in this help article, certain Customer Data may be stored outside this data region.",
+    "The hosting provider named for that function is Amazon Web Services, Inc. The listed locations include Singapore.",
+    "Slack services including Slack AI (excluding GovSlack): Hosting provider for Availability zones/Edge servers for all functionality. Customer Data may be transmitted through any Edge region. Singapore is one of the listed Edge locations."
+  ],
+  "do_not_use": "同一份 PDF 里 Automotive Cloud 的 AWS 句子只适用于那个附加功能，不能写成 Slack 的一般事实。"
+}

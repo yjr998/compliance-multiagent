@@ -1,0 +1,85 @@
+[
+  {
+    "doc_id": "shein-privacy-2026-10-05",
+    "title": "SHEIN Group Privacy Policy",
+    "url": "https://www.sheingroup.com/privacy-policy",
+    "region": "SG",
+    "doc_type": "privacy_policy",
+    "fetched": "2026-10-05",
+    "file": "shein-privacy-policy.html",
+    "quotes": [
+      "The Site is owned and operated by Roadget Business Pte. Ltd., 12 Marina Boulevard, #15-01, Marina Bay Financial Centre, Singapore 018982.",
+      "When you access or use our Services, your personal data may be processed or transferred outside the country where you reside, including to the United States, China and/or Singapore."
+    ]
+  },
+  {
+    "doc_id": "slack-subprocessors-2025-03-28",
+    "title": "Salesforce Infrastructure and Sub-processors",
+    "url": "https://slack.com/slack-subprocessors",
+    "region": "SG",
+    "doc_type": "subprocessor_list",
+    "fetched": "2026-10-05",
+    "file": "slack-subprocessors.pdf",
+    "quotes": [
+      "Slack services, including Slack AI (excluding GovSlack): Hosting provider for all functionality is Amazon Web Services, Inc. Customers may select a data region. Singapore is a listed location.",
+      "Customer Data may be transmitted through any Edge region. Singapore is one of the listed Edge locations."
+    ]
+  },
+  {
+    "doc_id": "pipl-2021",
+    "title": "中华人民共和国个人信息保护法",
+    "url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+    "region": "CN",
+    "doc_type": "statute",
+    "fetched": "2026-10-05",
+    "file": "pipl-npc.html",
+    "status": "full_text",
+    "note": "全国人大官网全文，从第一章到第七十四条。"
+  },
+  {
+    "doc_id": "gdpr-2016-gdpr-info",
+    "title": "GDPR Articles 1-99",
+    "url": "https://gdpr-info.eu/",
+    "region": "EU",
+    "doc_type": "statute_mirror",
+    "fetched": "2026-10-05",
+    "file": "gdpr/art-01.html",
+    "status": "articles_1_to_99",
+    "note": "EUR-Lex 官网这次连不上。正文来自 gdpr-info.eu 的第 1 至 99 条，不是欧盟官方公报 PDF。activeMind 页面只有目录，没有收进可用语料。"
+  },
+  {
+    "doc_id": "pdpa-2012-sso",
+    "title": "Personal Data Protection Act 2012",
+    "url": "https://sso.agc.gov.sg/Act/PDPA2012",
+    "region": "SG",
+    "doc_type": "statute",
+    "fetched": "2026-10-05",
+    "file": "pdpa-2012.html",
+    "status": "contents_only",
+    "note": "新加坡法令网站的 HTML 只有目录。可用条文在 pdpa-wikisource.html。"
+  },
+  {
+    "doc_id": "pdpa-2012-wikisource",
+    "title": "Personal Data Protection Act 2012",
+    "url": "https://en.wikisource.org/wiki/Personal_Data_Protection_Act_2012",
+    "region": "SG",
+    "doc_type": "statute_transcription",
+    "fetched": "2026-10-05",
+    "file": "pdpa-wikisource.html",
+    "status": "section_text",
+    "note": "SSO 正文和 PDF 导出拿不到。这份是 Wikisource 上的法令文本，含第 26 条跨境传输义务，不是新加坡政府 PDF。"
+  },
+  {
+    "doc_id": "aliyun-intl-privacy-2026-10-05",
+    "title": "Alibaba Cloud International Website Privacy Policy",
+    "url": "https://www.alibabacloud.com/help/zh/legal/latest/alibaba-cloud-international-website-privacy-policy",
+    "region": "SG",
+    "doc_type": "privacy_policy",
+    "fetched": "2026-10-05",
+    "file": "aliyun-intl-privacy.html",
+    "quotes": [
+      "Alibaba Cloud (Singapore) Private Limited, as the provider of the Alibaba Cloud Platform, may need to share your personal data provided in connection with the contracting process.",
+      "These Third Party Service Providers may be located in Singapore or outside of Singapore."
+    ]
+  }
+]

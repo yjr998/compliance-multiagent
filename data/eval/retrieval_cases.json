@@ -1,0 +1,37 @@
+[
+  {
+    "id": "aliyun-singapore-entity",
+    "query": "Alibaba Cloud Singapore Private Limited share personal data signatory",
+    "expect": "Alibaba Cloud (Singapore) Private Limited"
+  },
+  {
+    "id": "aliyun-third-parties",
+    "query": "Third Party Service Providers located in Singapore or outside of Singapore",
+    "expect": "may be located in Singapore or outside of Singapore"
+  },
+  {
+    "id": "pdpa-transfer",
+    "query": "transfer personal data to a country outside Singapore comparable protection",
+    "expect": "shall not transfer any personal data to a country or territory outside Singapore"
+  },
+  {
+    "id": "gdpr-article-44",
+    "query": "GDPR transfer of personal data to a third country or international organisation",
+    "expect": "Any transfer of personal data which are undergoing processing"
+  },
+  {
+    "id": "shein-transfer",
+    "query": "SHEIN personal data transferred United States China Singapore",
+    "expect": "including to the United States, China and/or Singapore"
+  },
+  {
+    "id": "pipl-article-38",
+    "query": "个人信息处理者确需向中华人民共和国境外提供个人信息",
+    "expect": "确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一"
+  },
+  {
+    "id": "slack-hosting",
+    "query": "Slack Customer Data stored outside this data region",
+    "expect": "stored outside this data region"
+  }
+]

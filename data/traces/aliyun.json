@@ -1,0 +1,93 @@
+{
+  "questions": [],
+  "trace": [
+    {
+      "node": "understand",
+      "elapsed_ms": 0,
+      "note": "gaps=0",
+      "hit_count": 0
+    },
+    {
+      "node": "retrieve",
+      "elapsed_ms": 18,
+      "note": "BM25+TF-IDF",
+      "hit_count": 6
+    },
+    {
+      "node": "analyze",
+      "elapsed_ms": 7956,
+      "note": "model",
+      "hit_count": 3
+    },
+    {
+      "node": "verify",
+      "elapsed_ms": 0,
+      "note": "supported=3/3",
+      "hit_count": 3
+    },
+    {
+      "node": "write_report",
+      "elapsed_ms": 0,
+      "note": "sections=7",
+      "hit_count": 0
+    }
+  ],
+  "risks": [
+    {
+      "text": "Third Party Service Providers may be located in Singapore or outside of Singapore, and are engaged under terms compliant with applicable data protection laws and/or appropriate duties of confidentiality to us and are only permitted to use your personal data in connection with the purposes specifi",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-19"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "We may also transfer Personal Data overseas to affiliates of Alibaba Cloud when necessary and through information network including API transfer.",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-80"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "个人信息处理者因业务等需要，确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一： （一）依照本法第四十条的规定通过国家网信部门组织的安全评估； （二）按照国家网信部门的规定经专业机构进行个人信息保护认证； （三）按照国家网信部门制定的标准合同与境外接收方订立合同，约定双方的权利和义务； （四）法律、行政法规或者国家网信部门规定的其他条件。 中华人民共和国缔结或者参加的国际条约、协定对向中华人民共和国境外提供个人信息的条件等有规定的，可以按照其规定执行。 个人信息处理者应当采取必要措施，保障境外接收方处理个人信息的活动达到本法规定的个人信息保护标准。",
+      "level": "medium",
+      "evidence_ids": [
+        "pipl-2021-7"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidence": [
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-20",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 13.7854
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-19",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 11.9088
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-80",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 11.5439
+    },
+    {
+      "doc_id": "pipl-2021-7",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 49.9093
+    },
+    {
+      "doc_id": "pipl-2021-8",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 38.4936
+    },
+    {
+      "doc_id": "pipl-2021-0",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 35.2522
+    }
+  ]
+}

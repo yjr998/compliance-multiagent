@@ -1,0 +1,13 @@
+{
+  "id": "aliyun-intl-singapore",
+  "company": "Alibaba Cloud",
+  "source_url": "https://www.alibabacloud.com/help/zh/legal/latest/alibaba-cloud-international-website-privacy-policy",
+  "source_file": "data/corpus/aliyun-intl-privacy.html",
+  "fetched": "2026-10-05",
+  "why_this_instead_of_tiktok": "TikTok 法律页面在当前网络打不开。阿里云国际站隐私政策可以打开，而且写明了新加坡主体和新加坡境内外的服务商。",
+  "facts_from_source": [
+    "When you make purchases of cloud services or transact online through the Alibaba Cloud Platform, Alibaba Cloud (Singapore) Private Limited, as the provider of the Alibaba Cloud Platform, may need to share your personal data provided in connection with the contracting process (including the identity information of the signatory, the email address and mobile phone number of the signatory).",
+    "These Third Party Service Providers may be located in Singapore or outside of Singapore.",
+    "When you elect to use servers located in the PRC (excluding Hong Kong (China), Macau (China) and Taiwan (China)) for the Cloud Services, we collect your photo ID."
+  ]
+}
