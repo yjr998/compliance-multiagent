@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.chroma/
+data/index/
+*.gguf
+*.bin
+.pytest_cache/
+.mypy_cache/
+*.log

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "aliyun-singapore-entity",
+    "query": "Alibaba Cloud Singapore Private Limited share personal data signatory",
+    "expect": "Alibaba Cloud (Singapore) Private Limited"
+  },
+  {
+    "id": "aliyun-third-parties",
+    "query": "Third Party Service Providers located in Singapore or outside of Singapore",
+    "expect": "may be located in Singapore or outside of Singapore"
+  },
+  {
+    "id": "aliyun-photo-id",
+    "query": "Alibaba Cloud PRC servers collect photo ID passport",
+    "expect": "photo ID"
+  },
+  {
+    "id": "aliyun-signatory",
+    "query": "signatory email address and mobile phone number Alibaba Cloud",
+    "expect": "email address and mobile phone number of the signatory"
+  },
+  {
+    "id": "shein-transfer",
+    "query": "SHEIN personal data transferred United States China Singapore",
+    "expect": "including to the United States, China and/or Singapore"
+  },
+  {
+    "id": "shein-entity",
+    "query": "SHEIN Roadget Business Pte Ltd Marina Boulevard",
+    "expect": "Roadget Business Pte. Ltd."
+  },
+  {
+    "id": "shein-privacy-office",
+    "query": "SHEIN Privacy Office Marina Boulevard privacy@sheingroup.com",
+    "expect": "SHEIN Privacy Office"
+  },
+  {
+    "id": "slack-hosting",
+    "query": "Slack Customer Data stored outside this data region",
+    "expect": "stored outside this data region"
+  },
+  {
+    "id": "slack-edge",
+    "query": "Slack Customer Data transmitted through any Edge region",
+    "expect": "transmitted through any Edge region"
+  },
+  {
+    "id": "slack-gov",
+    "query": "Slack AI and GovSlack applicable services branded",
+    "expect": "GovSlack"
+  },
+  {
+    "id": "pdpa-transfer",
+    "query": "transfer personal data to a country outside Singapore comparable protection",
+    "expect": "shall not transfer any personal data to a country or territory outside Singapore"
+  },
+  {
+    "id": "gdpr-article-44",
+    "query": "GDPR transfer of personal data to a third country or international organisation",
+    "expect": "Any transfer of personal data which are undergoing processing"
+  },
+  {
+    "id": "gdpr-adequacy",
+    "query": "adequacy decision by the Commission transfer personal data",
+    "expect": "adequacy decision"
+  },
+  {
+    "id": "pipl-article-38",
+    "query": "个人信息处理者确需向中华人民共和国境外提供个人信息",
+    "expect": "确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一"
+  },
+  {
+    "id": "pipl-rights",
+    "query": "个人对其个人信息的处理享有知情权、决定权",
+    "expect": "知情权"
+  }
+]

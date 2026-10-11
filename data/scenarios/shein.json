@@ -1,0 +1,18 @@
+{
+  "id": "shein-cross-border",
+  "company": "SHEIN",
+  "source_url": "https://www.sheingroup.com/privacy-policy",
+  "fetched": "2026-10-05",
+  "region": "SG",
+  "business_type": "cross_border_ecommerce",
+  "service_mode": "self_operated_site",
+  "data_types": [],
+  "cross_border": true,
+  "facts_from_source": [
+    "The Site is owned and operated by Roadget Business Pte. Ltd., 12 Marina Boulevard, #15-01, Marina Bay Financial Centre, Singapore 018982.",
+    "When you access or use our Services, your personal data may be processed or transferred outside the country where you reside, including to the United States, China and/or Singapore."
+  ],
+  "not_in_fetched_text": [
+    "这次抓到的页面正文里没有出现 payment / credit card。账号和支付字段不能先写进场景，等政策里对应原文找到再补。"
+  ]
+}

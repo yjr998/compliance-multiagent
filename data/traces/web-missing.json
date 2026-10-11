@@ -1,0 +1,29 @@
+{
+  "held": true,
+  "questions": [
+    "公司名称缺失"
+  ],
+  "trace": [
+    {
+      "node": "understand",
+      "elapsed_ms": 0,
+      "note": "gaps=1 soft=0",
+      "hit_count": 0
+    },
+    {
+      "node": "hold",
+      "elapsed_ms": 0,
+      "note": "stopped questions=1",
+      "hit_count": 0
+    }
+  ],
+  "risks": [
+    {
+      "text": "公司名称缺失",
+      "level": "medium",
+      "evidence_ids": [],
+      "status": "missing"
+    }
+  ],
+  "evidence": []
+}

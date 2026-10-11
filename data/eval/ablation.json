@@ -1,0 +1,99 @@
+{
+  "model": "qwen2.5:3b",
+  "definition": "untraceable = 带 evidence_ids 但 text 不是对应证据原文连续子串的条数 / 带 evidence_ids 的条数。B/C 使用同一批风险声明（含 1 条探针幻觉）。",
+  "resume_pair": {
+    "from_column": "B no verify",
+    "to_column": "C with verify",
+    "avg_untraceable_before": 0.7488,
+    "avg_untraceable_after": 0.0,
+    "avg_untraceable_before_pct": "74.9%",
+    "avg_untraceable_after_pct": "0.0%",
+    "bullet": "加上校验节点后，引用无法回溯原文的比例从 74.9% 降到 0.0%"
+  },
+  "scenarios": [
+    {
+      "scenario": "aliyun",
+      "evidence_count": 12,
+      "column_a_single_shot": {
+        "note": "single_shot_model",
+        "untraceable_rate": 1.0,
+        "untraceable_pct": "100.0%",
+        "bad": 6,
+        "claimed": 6
+      },
+      "column_b_no_verify": {
+        "note": "model+probe",
+        "untraceable_rate": 0.8,
+        "untraceable_pct": "80.0%",
+        "bad": 4,
+        "claimed": 5
+      },
+      "column_c_with_verify": {
+        "note": "verify_on_same_claims",
+        "untraceable_rate": 0.0,
+        "untraceable_pct": "0.0%",
+        "bad": 0,
+        "claimed": 1,
+        "supported": 1,
+        "assumption": 4,
+        "conflict": 0
+      }
+    },
+    {
+      "scenario": "shein",
+      "evidence_count": 12,
+      "column_a_single_shot": {
+        "note": "single_shot_model",
+        "untraceable_rate": 0.0,
+        "untraceable_pct": "0.0%",
+        "bad": 0,
+        "claimed": 0
+      },
+      "column_b_no_verify": {
+        "note": "model+probe",
+        "untraceable_rate": 0.5714,
+        "untraceable_pct": "57.1%",
+        "bad": 4,
+        "claimed": 7
+      },
+      "column_c_with_verify": {
+        "note": "verify_on_same_claims",
+        "untraceable_rate": 0.0,
+        "untraceable_pct": "0.0%",
+        "bad": 0,
+        "claimed": 3,
+        "supported": 3,
+        "assumption": 4,
+        "conflict": 0
+      }
+    },
+    {
+      "scenario": "slack",
+      "evidence_count": 12,
+      "column_a_single_shot": {
+        "note": "single_shot_model",
+        "untraceable_rate": 1.0,
+        "untraceable_pct": "100.0%",
+        "bad": 5,
+        "claimed": 5
+      },
+      "column_b_no_verify": {
+        "note": "model+probe",
+        "untraceable_rate": 0.875,
+        "untraceable_pct": "87.5%",
+        "bad": 7,
+        "claimed": 8
+      },
+      "column_c_with_verify": {
+        "note": "verify_on_same_claims",
+        "untraceable_rate": 0.0,
+        "untraceable_pct": "0.0%",
+        "bad": 0,
+        "claimed": 1,
+        "supported": 1,
+        "assumption": 7,
+        "conflict": 0
+      }
+    }
+  ]
+}

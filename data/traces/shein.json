@@ -1,0 +1,114 @@
+{
+  "held": false,
+  "questions": [],
+  "trace": [
+    {
+      "node": "understand",
+      "elapsed_ms": 0,
+      "note": "gaps=0 soft=0",
+      "hit_count": 0
+    },
+    {
+      "node": "retrieve",
+      "elapsed_ms": 40,
+      "note": "BM25+TF-IDF",
+      "hit_count": 12
+    },
+    {
+      "node": "analyze",
+      "elapsed_ms": 27205,
+      "note": "model_ok_attempt1",
+      "hit_count": 2
+    },
+    {
+      "node": "verify",
+      "elapsed_ms": 0,
+      "note": "supported=1/2 conflict=0",
+      "hit_count": 1
+    },
+    {
+      "node": "write_report",
+      "elapsed_ms": 0,
+      "note": "sections=7",
+      "hit_count": 0
+    }
+  ],
+  "risks": [
+    {
+      "text": "We will retain your personal information only for as long as is necessary for the purposes set out in this Policy.",
+      "level": "medium",
+      "evidence_ids": [
+        "shein-privacy-2026-10-05-31"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "If you no longer wish to be our customer, or cease using or accessing our Services, you may request that we delete all person",
+      "level": "high",
+      "evidence_ids": [],
+      "status": "assumption"
+    }
+  ],
+  "evidence": [
+    {
+      "doc_id": "shein-privacy-2026-10-05-1",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 58.8568
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-44",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 42.7983
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-47",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 37.0186
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-0",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 7.2889
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-31",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 3.27
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-32",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 3.2044
+    },
+    {
+      "doc_id": "pipl-2021-7",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 45.913
+    },
+    {
+      "doc_id": "pipl-2021-8",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 39.6617
+    },
+    {
+      "doc_id": "pipl-2021-0",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 35.1009
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-45",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 29.4444
+    },
+    {
+      "doc_id": "pipl-2021-10",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 24.4248
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-2",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 15.8809
+    }
+  ]
+}

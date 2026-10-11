@@ -1,0 +1,293 @@
+{
+  "total": 50,
+  "passed": 50,
+  "score": "50/50",
+  "retrieval_hit_at_5": "15/15",
+  "chunks": 1054,
+  "cases": [
+    {
+      "id": "retrieval:aliyun-singapore-entity",
+      "pass": true,
+      "detail": "Alibaba Cloud (Singapore) Private Limited"
+    },
+    {
+      "id": "retrieval:aliyun-third-parties",
+      "pass": true,
+      "detail": "may be located in Singapore or outside of Singapore"
+    },
+    {
+      "id": "retrieval:aliyun-photo-id",
+      "pass": true,
+      "detail": "photo ID"
+    },
+    {
+      "id": "retrieval:aliyun-signatory",
+      "pass": true,
+      "detail": "email address and mobile phone number of the signatory"
+    },
+    {
+      "id": "retrieval:shein-transfer",
+      "pass": true,
+      "detail": "including to the United States, China and/or Singapore"
+    },
+    {
+      "id": "retrieval:shein-entity",
+      "pass": true,
+      "detail": "Roadget Business Pte. Ltd."
+    },
+    {
+      "id": "retrieval:shein-privacy-office",
+      "pass": true,
+      "detail": "SHEIN Privacy Office"
+    },
+    {
+      "id": "retrieval:slack-hosting",
+      "pass": true,
+      "detail": "stored outside this data region"
+    },
+    {
+      "id": "retrieval:slack-edge",
+      "pass": true,
+      "detail": "transmitted through any Edge region"
+    },
+    {
+      "id": "retrieval:slack-gov",
+      "pass": true,
+      "detail": "GovSlack"
+    },
+    {
+      "id": "retrieval:pdpa-transfer",
+      "pass": true,
+      "detail": "shall not transfer any personal data to a country or territo"
+    },
+    {
+      "id": "retrieval:gdpr-article-44",
+      "pass": true,
+      "detail": "Any transfer of personal data which are undergoing processin"
+    },
+    {
+      "id": "retrieval:gdpr-adequacy",
+      "pass": true,
+      "detail": "adequacy decision"
+    },
+    {
+      "id": "retrieval:pipl-article-38",
+      "pass": true,
+      "detail": "确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一"
+    },
+    {
+      "id": "retrieval:pipl-rights",
+      "pass": true,
+      "detail": "知情权"
+    },
+    {
+      "id": "verify:supported_or_conflict_clean",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "verify:fabricated_to_assumption",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "verify:missing_id_to_assumption",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "verify:same_risk_conflict",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "verify:cross_risk_conflict",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "metric:untraceable_pre_verify",
+      "pass": true,
+      "detail": "{'rate': 0.6, 'bad': 3, 'claimed': 5}"
+    },
+    {
+      "id": "schema:roundtrip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "schema:reject_blank",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "behavior:hold_missing_company",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "behavior:hold_no_supported_risks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "behavior:hold_has_questions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "behavior:hold_report_sections",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "behavior:hold_disclaimer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "behavior:empty_evidence_stays_missing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:aliyun:sections",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:aliyun:disclaimer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:shein:sections",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:shein:disclaimer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:slack:sections",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:slack:disclaimer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:shein:no_payment_invention",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "report:slack:no_automotive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "theme:aliyun:A1",
+      "pass": true,
+      "detail": "Alibaba Cloud (Singapore) Private Limited|signatory"
+    },
+    {
+      "id": "theme:aliyun:A2",
+      "pass": true,
+      "detail": "outside of Singapore|Singapore or outside"
+    },
+    {
+      "id": "theme:aliyun:A3",
+      "pass": true,
+      "detail": "photo ID"
+    },
+    {
+      "id": "theme:aliyun:A4",
+      "pass": true,
+      "detail": "pipl|pdpa"
+    },
+    {
+      "id": "theme:shein:S1",
+      "pass": true,
+      "detail": "Roadget Business Pte"
+    },
+    {
+      "id": "theme:shein:S2",
+      "pass": true,
+      "detail": "United States, China and/or Singapore"
+    },
+    {
+      "id": "theme:shein:S3_no_payment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "theme:shein:S4",
+      "pass": true,
+      "detail": "pipl|pdpa"
+    },
+    {
+      "id": "theme:slack:L1",
+      "pass": true,
+      "detail": "stored outside this data region|outside this data region"
+    },
+    {
+      "id": "theme:slack:L2",
+      "pass": true,
+      "detail": "Amazon Web Services|Singapore"
+    },
+    {
+      "id": "theme:slack:L3",
+      "pass": true,
+      "detail": "Edge region|Edge"
+    },
+    {
+      "id": "theme:slack:L4_no_automotive",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "theme:slack:L5",
+      "pass": true,
+      "detail": "GovSlack"
+    }
+  ],
+  "verifier_sample": [
+    {
+      "text": "may be located in Singapore or outside of Singapore",
+      "status": "conflict",
+      "evidence_ids": [
+        "e1"
+      ]
+    },
+    {
+      "text": "TikTok stores every byte in Singapore under section 99.",
+      "status": "assumption",
+      "evidence_ids": []
+    },
+    {
+      "text": "personal data is transferred",
+      "status": "assumption",
+      "evidence_ids": []
+    },
+    {
+      "text": "may be located in Singapore or outside of Singapore",
+      "status": "conflict",
+      "evidence_ids": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "text": "shall not transfer any personal data to a country or territory outside Singapore",
+      "status": "conflict",
+      "evidence_ids": [
+        "e2"
+      ]
+    }
+  ]
+}

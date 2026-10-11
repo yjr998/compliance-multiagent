@@ -1,0 +1,140 @@
+{
+  "held": false,
+  "questions": [],
+  "trace": [
+    {
+      "node": "understand",
+      "elapsed_ms": 0,
+      "note": "gaps=0 soft=0",
+      "hit_count": 0
+    },
+    {
+      "node": "retrieve",
+      "elapsed_ms": 40,
+      "note": "BM25+TF-IDF",
+      "hit_count": 12
+    },
+    {
+      "node": "analyze",
+      "elapsed_ms": 56529,
+      "note": "model_ok_attempt1+extractive_fallback",
+      "hit_count": 5
+    },
+    {
+      "node": "verify",
+      "elapsed_ms": 0,
+      "note": "supported=5/5 conflict=0",
+      "hit_count": 5
+    },
+    {
+      "node": "write_report",
+      "elapsed_ms": 0,
+      "note": "sections=7",
+      "hit_count": 0
+    }
+  ],
+  "risks": [
+    {
+      "text": "Applicable to the services branded as (a) Slack, including Slack AI and (b) GovSlack.",
+      "level": "medium",
+      "evidence_ids": [
+        "slack-subprocessors-2025-03-28-205"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Slack services, including Slack AI (excluding GovSlack): Hosting provider for all functionality. Customers may select a data Amazon Web Services, Inc. United States Australia 74 Copyright 2000 – 2025 Salesforce, Inc. All rights reserved. Salesforce is a registered trademark of Salesforce, Inc., as are other names and marks. Other marks appearing herein may be trademarks of their respective owner.",
+      "level": "medium",
+      "evidence_ids": [
+        "slack-subprocessors-2025-03-28-205"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "Slack services including Slack AI (excluding GovSlack): Hosting provider for Availability zones/Edge servers for all functionality. Amazon Web Services, Inc.",
+      "level": "medium",
+      "evidence_ids": [
+        "slack-subprocessors-2025-03-28-206"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "services: Hosting provider for Availability zones/Edge servers for all functionality Amazon Web Services, Inc. United States Customer Data may be transmitted through any AWS GovCloud Edge region to provide better and faster service response time depending, for example, on the location of Slack Users. Slack Huddles functionality (excluding GovSlack): audio and video streams. Amazon Chime (by Amazon",
+      "level": "medium",
+      "evidence_ids": [
+        "slack-subprocessors-2025-03-28-209"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "GovSlack): Hosting provider for Availability zones/Edge servers for all functionality. Amazon Web Services, Inc. United States Australia Customer Data may be transmitted through any Edge region to provide better and faster service response time, depending, for example, on the location of Slack Users. Australia Germany India Ireland Japan Singapore South Africa United Kingdom GovSlack services: Hos",
+      "level": "medium",
+      "evidence_ids": [
+        "slack-subprocessors-2025-03-28-207"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidence": [
+    {
+      "doc_id": "slack-subprocessors-2025-03-28-205",
+      "title": "Salesforce Infrastructure and Sub-processors",
+      "score": 28.5444
+    },
+    {
+      "doc_id": "slack-subprocessors-2025-03-28-209",
+      "title": "Salesforce Infrastructure and Sub-processors",
+      "score": 28.0912
+    },
+    {
+      "doc_id": "slack-subprocessors-2025-03-28-207",
+      "title": "Salesforce Infrastructure and Sub-processors",
+      "score": 24.4131
+    },
+    {
+      "doc_id": "slack-subprocessors-2025-03-28-211",
+      "title": "Salesforce Infrastructure and Sub-processors",
+      "score": 17.9119
+    },
+    {
+      "doc_id": "slack-subprocessors-2025-03-28-206",
+      "title": "Salesforce Infrastructure and Sub-processors",
+      "score": 17.188
+    },
+    {
+      "doc_id": "slack-subprocessors-2025-03-28-212",
+      "title": "Salesforce Infrastructure and Sub-processors",
+      "score": 16.5316
+    },
+    {
+      "doc_id": "pipl-2021-7",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 45.913
+    },
+    {
+      "doc_id": "pipl-2021-8",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 39.6617
+    },
+    {
+      "doc_id": "pipl-2021-0",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 35.1009
+    },
+    {
+      "doc_id": "pipl-2021-10",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 24.4248
+    },
+    {
+      "doc_id": "pdpa-2012-wikisource-73",
+      "title": "Personal Data Protection Act 2012",
+      "score": 14.9472
+    },
+    {
+      "doc_id": "pdpa-2012-wikisource-5",
+      "title": "Personal Data Protection Act 2012",
+      "score": 8.1932
+    }
+  ]
+}

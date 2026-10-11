@@ -1,0 +1,140 @@
+{
+  "held": false,
+  "questions": [],
+  "trace": [
+    {
+      "node": "understand",
+      "elapsed_ms": 0,
+      "note": "gaps=0 soft=0",
+      "hit_count": 0
+    },
+    {
+      "node": "retrieve",
+      "elapsed_ms": 40,
+      "note": "BM25+TF-IDF",
+      "hit_count": 12
+    },
+    {
+      "node": "analyze",
+      "elapsed_ms": 32969,
+      "note": "model_ok_attempt1+extractive_fallback",
+      "hit_count": 5
+    },
+    {
+      "node": "verify",
+      "elapsed_ms": 0,
+      "note": "supported=5/5 conflict=0",
+      "hit_count": 5
+    },
+    {
+      "node": "write_report",
+      "elapsed_ms": 0,
+      "note": "sections=7",
+      "hit_count": 0
+    }
+  ],
+  "risks": [
+    {
+      "text": "When you make purchases of cloud services or transact online through the Alibaba Cloud Platform, Alibaba Cloud (Singapore) Private Limited, as the provider of the Alibaba Cloud Platform, may need to share your personal data provided in connection with the contracting process (including the identity information of the signatory, the email address and mobile phone number of the signatory, invoicing",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-16"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "These Third Party Service Providers may be located in Singapore or outside of Singapore, and are engaged under terms compliant with applicable data protection laws and/or appropriate duties of confidentiality to us and are only permitted to use your personal data in connection with the purposes specified in Section B above, and not for their own purposes. These Third-Party Service Providers may fu",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-22"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "services) when you use the Alibaba Cloud Platform and/or certain Cloud Services for legal and/or business purposes. If you make purchases or otherwise transact online through the Alibaba Cloud Platform, we also collect information related to such transactions including, but not limited to, the types and specifications of the Cloud Services, pricing information, and any trade dispute/complaint reco",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-8"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "data. We strongly encourage you to visit the Alibaba Cloud Platform from time to time to review the Privacy Policy. Your continued use of the Alibaba Cloud Platform and/or the Cloud Services signifies your acceptance of the changes to the Privacy Policy. AUSTRALIA ADDENDUM If you are located in Australia, you acknowledge that Alibaba Cloud (Singapore) Private Limited is bound by the Australian Pri",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-59"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "for security and customer services purposes and collect additional information to verify your identity. 4. If you make online purchases for our Cloud Services through the Alibaba Cloud Platform, you may be required to provide information related to your payment instrument (such as credit cards), including information about your payment instrument organisation, your payment instrument number, the s",
+      "level": "medium",
+      "evidence_ids": [
+        "aliyun-intl-privacy-2026-10-05-9"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidence": [
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-16",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 50.874
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-8",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 44.7403
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-59",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 35.9178
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-9",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 32.4852
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-22",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 26.382
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-2",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 8.9197
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-93",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 8.4567
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-94",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 8.3879
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-36",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 8.2131
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-1",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 6.0926
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-73",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 5.7561
+    },
+    {
+      "doc_id": "pipl-2021-7",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 45.913
+    }
+  ]
+}

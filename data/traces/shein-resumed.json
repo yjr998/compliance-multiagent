@@ -1,0 +1,119 @@
+{
+  "held": false,
+  "questions": [],
+  "trace": [
+    {
+      "node": "understand",
+      "elapsed_ms": 0,
+      "note": "gaps=0 soft=0",
+      "hit_count": 0
+    },
+    {
+      "node": "retrieve",
+      "elapsed_ms": 28,
+      "note": "BM25+TF-IDF",
+      "hit_count": 11
+    },
+    {
+      "node": "analyze",
+      "elapsed_ms": 20763,
+      "note": "extractive_fallback",
+      "hit_count": 3
+    },
+    {
+      "node": "verify",
+      "elapsed_ms": 0,
+      "note": "supported=3/3 conflict=0",
+      "hit_count": 3
+    },
+    {
+      "node": "write_report",
+      "elapsed_ms": 0,
+      "note": "sections=7",
+      "hit_count": 0
+    }
+  ],
+  "risks": [
+    {
+      "text": "Privacy Policy | SHEIN Group Our Group Our Mission On-Demand Fashion Innovation Brands SHEIN Dazy Romwe MOTF Anewsta Musera Glowmode Aralina Sustainability Our EvoluSHEIN Strategy Our Focus Areas: People, Planet, Process People Planet Process Supplier Community Stories Sustainability and Social Impact Reports SHEIN Foundation Governance Data Security &amp; Privacy Product Safety IP Tax Compliance ",
+      "level": "medium",
+      "evidence_ids": [
+        "shein-privacy-2026-10-05-0"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "regarding any information in this Privacy Policy, please contact us at privacy@sheingroup.com or media@sheingroup.com. Our Privacy Office can be contacted via the email address below or via our postal address below in writing: SHEIN Privacy Office 12 Marina Boulevard,#15-01, Marina Bay Financial Centre, Singapore 018982 Email: privacy@sheingroup.com SHEIN.COM Explore Our Group Brands Sustainabilit",
+      "level": "medium",
+      "evidence_ids": [
+        "shein-privacy-2026-10-05-47"
+      ],
+      "status": "supported"
+    },
+    {
+      "text": "to in Articles 13 and 14 , inform the data subject of the transfer and on the compelling legitimate interests pursued. 1 A transfer pursuant to point (g) of the first subparagraph of paragraph 1 shall not involve the entirety of the personal data or entire categories of the personal data contained in the register. 2 Where the register is intended for consultation by persons having a legitimate int",
+      "level": "medium",
+      "evidence_ids": [
+        "gdpr-art-49-5"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidence": [
+    {
+      "doc_id": "shein-privacy-2026-10-05-0",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 7.2889
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-47",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 6.1029
+    },
+    {
+      "doc_id": "gdpr-art-49-5",
+      "title": "GDPR Article 49",
+      "score": 5.2634
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-1",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 58.8568
+    },
+    {
+      "doc_id": "shein-privacy-2026-10-05-2",
+      "title": "SHEIN Group Privacy Policy",
+      "score": 15.8809
+    },
+    {
+      "doc_id": "pdpa-2012-wikisource-73",
+      "title": "Personal Data Protection Act 2012",
+      "score": 10.4964
+    },
+    {
+      "doc_id": "aliyun-intl-privacy-2026-10-05-94",
+      "title": "Alibaba Cloud International Website Privacy Policy",
+      "score": 8.512
+    },
+    {
+      "doc_id": "pdpa-2012-wikisource-5",
+      "title": "Personal Data Protection Act 2012",
+      "score": 7.2925
+    },
+    {
+      "doc_id": "pipl-2021-7",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 45.913
+    },
+    {
+      "doc_id": "pipl-2021-8",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 39.6617
+    },
+    {
+      "doc_id": "pipl-2021-0",
+      "title": "中华人民共和国个人信息保护法",
+      "score": 35.1009
+    }
+  ]
+}

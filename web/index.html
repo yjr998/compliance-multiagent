@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ComplianceFlow · 合规预审</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="brand">ComplianceFlow</p>
+      <h1>出海场景合规预审</h1>
+      <p class="lede">填场景 → 五步流水线 → 带引用报告。缺字段会停下；冲突证据两边保留。</p>
+    </header>
+
+    <main class="grid">
+      <section class="panel">
+        <h2>场景输入</h2>
+        <label>预设
+          <select id="preset">
+            <option value="aliyun">阿里云国际站</option>
+            <option value="shein">SHEIN</option>
+            <option value="slack">Slack</option>
+            <option value="custom">自定义</option>
+          </select>
+        </label>
+        <label>公司名称 <input id="company" type="text" /></label>
+        <label>目标法域 <input id="region" type="text" placeholder="SG" /></label>
+        <label>业务类型 <input id="business_type" type="text" /></label>
+        <label>服务模式 <input id="service_mode" type="text" /></label>
+        <label>公开事实（每行一条）
+          <textarea id="facts" rows="6"></textarea>
+        </label>
+        <label class="check"><input id="strip_company" type="checkbox" /> 演示缺信息：清空公司名</label>
+        <div class="actions">
+          <button id="run" type="button">运行预审</button>
+          <button id="resume" type="button" class="ghost" disabled>用下方补填续跑</button>
+        </div>
+        <div id="questionsBox" class="questions hidden">
+          <h3>需要补填</h3>
+          <ul id="questions"></ul>
+          <label>补填公司名 <input id="fix_company" type="text" /></label>
+        </div>
+        <p id="status" class="status"></p>
+      </section>
+
+      <section class="panel">
+        <h2>运行轨迹</h2>
+        <ol id="trace" class="trace"></ol>
+      </section>
+
+      <section class="panel wide">
+        <div class="row">
+          <h2>风险摘要</h2>
+          <p id="riskStats" class="risk-stats">尚未运行</p>
+        </div>
+        <div id="risks" class="risks"></div>
+      </section>
+
+      <section class="panel wide">
+        <div class="row">
+          <h2>报告预览</h2>
+          <a id="download" class="ghost link hidden" href="#">下载 Markdown</a>
+        </div>
+        <pre id="report" class="report">尚未运行。</pre>
+      </section>
+    </main>
+
+    <footer>
+      这不是法律意见。语料有限，结论需要人工复核。
+      · <a href="/docs">API 文档</a>
+      · <a href="/api/scenarios">场景列表</a>
+    </footer>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
